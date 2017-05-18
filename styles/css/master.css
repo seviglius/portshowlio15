@@ -1,0 +1,425 @@
+@charset "UTF-8";
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro);
+/*
+Global Styles
+---------------------------------------------------------------------------*/
+body { font-family: "Source Sans Pro" }
+.container-fluid {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+/*
+Typography & Links
+---------------------------------------------------------------------------*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 { font-weight: bold;
+text-transform:uppercase; }
+a {
+    color: #00ACC8;
+    text-decoration: none;
+
+}
+a:hover {
+    color: #007299;
+    text-decoration: none;
+}
+/*
+Header
+---------------------------------------------------------------------------*/
+img.portshowlio-label {
+    width: 225px;
+    opacity: 1;
+    display: block !important;
+    margin: 0 auto !important;
+    filter: alpha(opacity=40); /* For IE8 and earlier */
+}
+.scca-brand {
+    width: 275px;
+    margin: 1em auto 2em auto;
+    display: block;
+    clear: both;
+}
+.scca-header-info { width: 100px }
+header {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-bottom: 4em;
+    /* Puts search icon in form field */
+    /* firefox 19+ */
+    /* ie */
+    background-color: #EF5B84;
+    padding-top: 30px;
+}
+header ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+header li {
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+header ul:first-of-type li {
+    padding-left: 1em;
+    padding-right:1em;
+}
+header li:first-child { padding-left: 0 }
+header li a { color: #EF5B84; font-size: 1em;}
+header li .current { border-bottom: 2px solid #EF5B84 }
+header .scca-search {
+    float: right;
+    border: 2px solid #D1D1D1;
+    background-image: none;
+    box-shadow: none;
+    border-radius: 70px;
+    margin-top: 2em;
+    width: 200px;
+    font-weight: 600;
+}
+header .scca-search ::-webkit-input-placeholder { color: #D1D1D1 }
+header .scca-search ::-moz-placeholder { color: #D1D1D1 }
+header .scca-search :-ms-input-placeholder { color: #D1D1D1 }
+header .scca-search:focus {
+    border: 2px solid #FFC845;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    color: #FFC845;
+}
+
+/* Grey search icon that appears on input. Galyn commented out.
+header ::-webkit-input-placeholder::before {
+    font-family: fontAwesome;
+    content: '\f002  ';
+    color: #D1D1D1;
+}*/
+header ::-moz-placeholder::before {
+    font-family: fontAwesome;
+    content: '\f002  ';
+    color: #D1D1D1;
+}
+header :-ms-input-placeholder::before {
+    font-family: fontAwesome;
+    content: '\f002  ';
+    color: #D1D1D1;
+}
+header :input:-moz-placeholder::before {
+    font-family: fontAwesome;
+    content: '\f002  ';
+    color: #D1D1D1;
+}
+.header_date {
+    padding-top:55px;
+    height:190px;
+    opacity: .7;
+}
+
+
+
+
+
+#navbar {
+    background-color: #fff;
+    padding-top: 57px;
+    font-size:1.1em;}
+.searchbar {position: relative; top: -40px;}
+.search-form {
+    position: absolute;
+    right: 20px;
+}
+.search-field {
+    background-color: transparent;
+    background-image: url("/wp-content/themes/portshowlio/img/searchicon_pink.svg");
+    background-position: 5px center;
+    background-repeat: no-repeat;
+    background-size: 24px 24px;
+    border: none;
+    cursor: pointer;
+    height: 37px;
+    margin: 3px 0;
+    padding: 0 0 0 34px;
+    position: relative;
+    -webkit-transition: width 400ms ease, background 400ms ease;
+    transition:         width 400ms ease, background 400ms ease;
+    width: 0;
+}
+.search-field:focus {
+    background-color: #fff;
+    border: 2px solid #EF5B84;
+    cursor: text;
+    outline: 0;
+    width: 230px;
+}
+
+.search-submit {
+  display: none;
+}
+
+input[type="search"] {
+  -webkit-appearance: textfield;
+}
+/*
+Footer
+---------------------------------------------------------------------------*/
+/*footer {
+    border-top: 2px solid #00ACC8;
+    border-right: 2px solid #00ACC8;
+    border-left: 2px solid #00ACC8;
+    text-align: center;
+    margin: 2em 0 0 0;
+    padding: 2em 0;
+    color: #00ACC8;
+}
+footer p,
+footer address { margin-bottom: 2em }
+.scca-social-media { margin: 2em auto }
+
+*/
+
+.scca-social-button {
+    border: 2px solid #00ACC8;
+    margin-top:-5px;
+    margin-right:6px;
+}
+.scca-social-button:hover {
+    border: 2px solid #007299;
+}
+
+
+
+footer {
+    background-color: #007299;
+    text-align: center;
+    margin: 2em 0 0 0;
+    padding: 2em 0;
+    color: #fff;
+    margin-top: 6em;
+}
+footer p,
+footer address { margin-bottom: 2em }
+.scca-social-media { margin: 2em auto }
+img.portshowlio-label-footer {
+    width: 215px;
+    float:center;
+    margin-bottom: 2em;
+    margin-top: 1em;
+}
+
+
+
+footer .scca-social-button:hover {
+    border: 2px solid #fff;
+}
+
+footer a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+/*
+Homepage
+---------------------------------------------------------------------------*/
+.scca-homepage-item {
+    text-align: center;
+    margin-bottom: 2em;
+    width: 24%;
+}
+.scca-homepage-item img { width: 100% }
+.scca-homepage-item .scca-caption h5 {
+    font-weight: bold;
+    color: #5D5B5B;
+    text-transform: uppercase;
+    line-height: 1.25em;
+    letter-spacing: 1px;
+}
+.scca-homepage-item .scca-caption .scca-labels {
+    margin-top: -.6em;
+    font-size: .8em;
+    font-weight: 600;
+}
+
+p.scca-labels {
+    font-size: .8em;
+    line-height: 1.25em;
+    color: #A09F9F;
+    text-transform: capitalize;
+    letter-spacing:.75px;
+    margin-top:-7px;
+}
+
+.scca-homepage-group:hover {
+    opacity: .8;
+    -webkit-transition: all .5s ease;
+    -webkit-filter:  grayscale(1);
+}
+
+.scca-homepage-group {
+    -webkit-transition: all .5s ease;
+}
+/*
+Student Selection Pages
+---------------------------------------------------------------------------*/
+.scca-student-filters {
+    /*margin-bottom: 3em;*/
+}
+.scca-student-filters h4{
+    color: #00ACC8;
+}
+.scca-student-filters ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+
+}
+.scca-student-filters li {
+    display: inline;
+    text-transform: uppercase;
+    font-weight: 600 !important;
+}
+.scca-student-filters small {
+    color: #D1D1D1;
+    display: block;
+    padding: .5em 0;
+    font-weight: bold;
+    letter-spacing: .04em;
+    margin-bottom: 1em;
+}
+.scca-student-filters label {
+    position: relative;
+    z-index: 3;
+    padding: 0px 6px;
+    color: #00ACC8;
+    line-height: 2em;
+    border: 2px solid #00ACC8;
+    background-color: #FFFFFF;
+    margin: 5px;
+    cursor: pointer;
+}
+.scca-student-filters input {
+    position: absolute;
+    left: -50%;
+    top: -50%;
+    opacity: 0;
+}
+.scca-student-filters input:checked + label {
+  background-color: #00ACC8;
+  color: #FFFFFF;
+}
+.scca-student .scca-student-portrait {
+    width: 100%;
+    display: block;
+}
+.scca-student h3 {
+    margin-bottom: .3em;
+    margin-right: 0;
+    border-bottom: 2px solid #EF5B84;
+    width: 100%;
+    color: #EF5B84;
+    font-size: 1.1em;
+    padding-bottom: .1em;
+    text-transform: uppercase;
+    margin-top:13%;
+    letter-spacing:.75px;
+}
+.scca-student a {
+    margin: 0 0 .5em 0;
+    display: block;
+    color: #EF5B84;
+}
+
+.scca-student-group:hover {
+    opacity: .8;
+    -webkit-transition: all .5s ease;
+    -webkit-filter:  grayscale(1);
+}
+
+.scca-student-group {
+     -webkit-transition: all .5s ease;
+}
+
+.scca-student .scca-student-thumbail {
+    width: 49.3333333%;
+    margin-top: .3em;
+}
+.scca-check-deselect {
+    border: 2px solid #00ACC8;
+    background-color: #fff;
+}
+.scca-check-select {
+    background-color: ;
+    color: #fff !important;
+}
+.scca-student-profile-image {
+  padding: 0;
+}
+.scca-student-profile-image img {
+  width: 100%;
+}
+.scca-thumbnail-holder {
+  padding: 0 0 0 2%;
+  overflow: hidden;
+}
+.scca-thumbnail-holder img {
+  width: 103%;
+}
+.scca-thumbnail-holder img:first-of-type {
+  margin-bottom: 8%;
+}
+.greyed-text {
+       color: #D1D1D1  !important;
+   }
+   .clear-button {
+       margin: 0 auto;
+       width: 200px;
+       display: block;
+       text-align: center;
+       padding-top: 1em;
+       background-color: #fff;
+       color: #d1d1d1 ;
+       border: none;
+       text-decoration: underline;
+       outline: none;
+   }
+
+  /* #Filters {
+       padding-top: 2em;
+   }*/
+
+/*single design video responsiveness - galyn added not working
+.iframe, .fluid-width-video-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+  .embed-container {
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    height: auto;
+    position: relative;
+  } */
+
+/*
+Responsive Utilities
+---------------------------------------------------------------------------*/
+}
+@media (max-width: 768px) {
+    .scca-homepage-item { 
+        width: 47%;
+    }
+}
+@media (max-width: 483px) {
+    .scca-homepage-item { width: 46%; }
+}
+@media (max-width: 400px) {
+    .scca-homepage-item { width: 45%; }
+}

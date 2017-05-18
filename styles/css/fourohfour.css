@@ -1,0 +1,141 @@
+/*404 and Search Engine*/
+
+.fourohfour {
+	background-image: url("/wp-content/uploads/2015/06/404d.gif"); 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+.error {
+	background-color: #fff;
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+.fourohfour h2 {
+	font-size: 4.5em;
+	font-family: s-lightitalic, sans-serif;
+	color: #ffc845;
+	text-align: center;
+	position: relative;
+	top: 40px;
+}
+
+.fourohfour h1 {
+	font-size: 15em;
+	font-family: c-bold, serif;
+	color: #ffc845;
+	text-align: center;
+	line-height: 1em;
+	position: relative;
+	top: 30px;
+}
+
+.fourohfour h3 {
+	font-size: 5em;
+	font-family: s-bold, serif;
+	color: #ffc845;
+	text-align: center;
+	position: relative;
+	top: -40px;
+}
+
+.fourohfour p {
+	color: #ffc845;
+	text-align: center;
+	font-size: 1.5em;
+	background-color: #fff;
+	position: relative;
+	top: -20px;
+	padding: 10px !important;
+}
+
+@font-face {
+font-family: c-bold;
+src: url(/wp-content/themes/portshowlio/fonts/clarendon/ClarendonLTStd-Bold.otf);
+}
+@font-face {
+    font-family: s-bold;
+    src: url(/wp-content/themes/portshowlio/fonts/source/SourceSansPro-Bold.ttf);
+}
+@font-face {
+    font-family: b-italic;
+    src: url(/wp-content/themes/portshowlio/fonts/baskerville/BaskervilleMTStd-Italic.otf);
+}
+@font-face {
+    font-family: s-lightitalic;
+    src: url(/wp-content/themes/portshowlio/fonts/source/SourceSansPro-LightItalic.ttf);
+}
+@font-face {
+    font-family: s-black;
+    src: url(/wp-content/themes/portshowlio/fonts/source/SourceSansPro-Black.ttf);
+}
+
+
+@media (max-width: 992px) {
+.fourohfour h2 {
+	font-size: 3.5em;
+	font-family: s-lightitalic, sans-serif;
+	color: #ffc845;
+	text-align: center;
+	position: relative;
+	top: 40px;
+}
+
+.fourohfour h1 {
+	font-size: 13em;
+	font-family: c-bold, serif;
+	color: #ffc845;
+	text-align: center;
+	line-height: 1em;
+	position: relative;
+	top: 30px;
+}
+
+.fourohfour h3 {
+	font-size: 4em;
+	font-family: s-bold, serif;
+	color: #ffc845;
+	text-align: center;
+	position: relative;
+	top: -40px;
+}
+
+}
+@media (max-width: 768px) {
+.fourohfour h2 {
+	font-size: 2em;
+	font-family: s-lightitalic, sans-serif;
+	color: #ffc845;
+	text-align: center;
+	position: relative;
+	top: 40px;
+}
+
+.fourohfour h1 {
+	font-size: 7em;
+	font-family: c-bold, serif;
+	color: #ffc845;
+	text-align: center;
+	line-height: 1em;
+	position: relative;
+	top: 30px;
+}
+
+.fourohfour h3 {
+	font-size: 2em;
+	font-family: s-bold, serif;
+	color: #ffc845;
+	text-align: center;
+	position: relative;
+	top: -10px;
+}
+.fourohfour p {
+	margin-top: 40px;
+	font-size: 1em;
+}
+}
+@media (min-width: 992px) {
+   
+
+}

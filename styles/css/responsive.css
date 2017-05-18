@@ -1,0 +1,97 @@
+@charset "UTF-8";
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro);
+
+/* Portshowlio-created media queries for all pages*/
+.mobile-only {
+  display: none;
+}
+
+@media (max-width: 992px) {
+  header .container-fluid {
+    text-align:center;
+  }
+/*  .searchbar {
+    top:auto;
+  }*/
+  #navbar {
+    padding-top: 28px;
+  }
+  header ul:first-of-type li {
+    padding-left: 1em;
+  }
+  img.portshowlio-label, img.portshowlio-label {
+    float: none;
+    width:205px;
+  }
+.scca-brand {
+    width: 255px;
+    margin: 1.25em auto 2em;
+}
+  .header_date {
+    width: 100px;
+  }
+  .searchbar {
+    top:0;
+  }
+  .search-form {
+    position: inherit;
+    right: 0;
+    top: 0;
+  }
+  .desktop-only {
+    display: none;
+  }
+  .mobile-only {
+    display: inline-block;
+  }
+  #navbar{
+    padding-top: 10px;
+  }
+  .searchbar label {
+    margin-bottom: 10px;
+  }
+  .navbar .container-fluid {
+    padding-left: 0;
+    padding-right:0;
+  }
+  header ul:first-of-type li {
+    padding-right: .5em;
+    padding-left: .5em;
+
+  }
+}
+@media (max-width: 900px) {
+  .header_date {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+   /*single-design responsiveness*/
+   .sticky-sidebar {
+   	width: 100% !important;
+   }
+header {margin-bottom: 2em;
+}
+   /*header responsiveness*/
+img.portshowlio-label, img.portshowlio-label {
+    float: none;
+    width:140px;
+  }
+.scca-brand {
+    width: 145px;
+    margin: 1.25em auto 2em;
+}
+}
+@media (max-width: 400px) {
+
+/*list page responsiveness - removing filters*/
+   .showlio-filters {
+      display:none;
+   }
+}
+@media (max-width: 500px) {
+   .small-phone-single { padding-left: 5px !important; padding-right: 5px !important; }
+}
+@media (max-width: 400px) {
+   .small-phone-single { width: 100%; }
+}

@@ -1,0 +1,28 @@
+/*Post Show Gallery*/
+
+@font-face {
+    font-family: s-bold;
+    src: url(/wp-content/themes/portshowlio/fonts/source/SourceSansPro-Bold.ttf);
+}
+
+.envirabox-title.envirabox-title-float-wrap {display: none;}
+#postshow_gallery h2 {
+	text-align: center;
+	font-family: s-bold, sans-serif;
+	color: #007299;
+}
+
+#postshow_gallery p {
+	text-align: center;
+	color: #007299;
+	padding-bottom: 10px;
+	text-transform: uppercase;
+}
+
+.postshow_title  {
+	margin-bottom: 5% !important;
+	border: 4px solid #007299;
+}
+
+
+

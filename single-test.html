@@ -1,0 +1,127 @@
+<?php get_header(); ?>
+
+<?php the_title(); ?>
+
+<h1>HELLLLLOOOOO</h1>
+	<section id="">
+        <div class="container-fluid" id="design-page">
+            <div class="row">
+            	<div class="col-sm-3">
+
+					<img class="responsive-image student-image" src="<?php the_field('designer_headshot'); ?>"/>
+
+
+				</div>
+
+
+				<div class="col-md-6 about-student">
+					<h3 class="student-name"><?php the_field('designer_name'); ?></h3>
+					<a href="#" class="student-url"><?php the_field('designer_website'); ?></a>
+
+					<h4 class="inline-text text-uppercase">UX Design</h4><h4 class="inline-text text-uppercase designer-category">Visual Design</h4><h4 class="inline-text text-uppercase designer-category">Web Design</h4>
+
+					<p class="student-description"><?php the_field('designer_description'); ?></p>
+				</div>
+        	</div> <!--row-->
+   		 </div> <!--container-->
+	</section>
+
+
+	<section id="">
+        <div class="container-fluid" id="design-page">
+            <div class="row">
+
+            	<div class="col-sm-3">
+            		<div class="sideNav">
+            	        <h2><?php the_sub_field('project_name'); ?></h2>
+            	        <p class="project-description"><?php the_sub_field('project_description'); ?></p>
+
+
+            	        <h4 class="text-uppercase">Team Members</h4>
+            	        <h5 class="inline-text"><?php the_sub_field('member_name'); ?></h5><p class="inline-text designer-role text-uppercase"><?php the_sub_field('team_member_roles'); ?></p>
+            	        <br>
+            	        <h5 class="inline-text"><?php the_sub_field('member_name'); ?></h5><p class="inline-text designer-role text-uppercase"><?php the_sub_field('team_member_roles'); ?></p>
+            	        <br>
+            	        <p class="inline-text"><?php the_sub_field('member_name'); ?></h5><p class="inline-text designer-role text-uppercase"><?php the_sub_field('team_member_roles'); ?></p>
+            	    </div>
+            	</div>
+
+
+
+            	<div class="col-sm-9 design-page-item">
+	            		<img class="responsive-image design-image" src="images/portfolio1.jpg">
+	            		<img class="responsive-image design-image" src="images/portfolio1.jpg">
+	            		<img class="responsive-image design-image" src="images/portfolio1.jpg">
+	            		<div class="hline"></div>
+            	</div> <!--col-9-->
+        	</div> <!--row-->
+   		 </div> <!--container-->
+	</section>
+
+	<section id="">
+        <div class="container-fluid" id="design-page">
+            <div class="row">
+
+            	<div class="col-sm-3">
+            		<div class="sideNav">
+            	        <h2 class="pad-project">Project 2</h2>
+            	        <p class="project-description">About this project ed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.</p>
+
+
+            	        <h4 class="text-uppercase">Team Members</h4>
+            	        <h5 class="inline-text">Zian Dinh</h5><p class="inline-text designer-role text-uppercase">Visual Design</p>
+            	        <br>
+            	        <h5 class="inline-text">Erika Nicks</h5><p class="inline-text designer-role text-uppercase">Coding</p>
+            	        <br>
+            	        <p class="inline-text">Michelle Furedy</h5><p class="inline-text designer-role text-uppercase">Coding</p>
+            	    </div>
+            	</div>
+
+
+
+            	<div class="col-sm-9 design-page-item pad-project">
+	            		<img class="responsive-image design-image" src="images/portfolio1.jpg">
+	            		<img class="responsive-image design-image" src="images/portfolio1.jpg">
+	            		<img class="responsive-image design-image" src="images/portfolio1.jpg">
+	            		<div class="hline"></div>
+            	</div> <!--col-9-->
+        	</div> <!--row-->
+   		 </div> <!--container-->
+	</section>
+
+
+	<section id="">
+        <div class="container-fluid" id="design-page">
+            <div class="row">
+
+
+            	<div class="col-sm-3">
+            		<div class="sideNav">
+            	        <h2 class="pad-project">Project 3</h2>
+            	        <p class="project-description">About this project ed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore.</p>
+
+
+            	        <h4 class="text-uppercase">Team Members</h4>
+            	        <h5 class="inline-text">Zian Dinh</h5><p class="inline-text designer-role text-uppercase">Visual Design</p>
+            	        <br>
+            	        <h5 class="inline-text">Erika Nicks</h5><p class="inline-text designer-role text-uppercase">Coding</p>
+            	        <br>
+            	        <p class="inline-text">Michelle Furedy</h5><p class="inline-text designer-role text-uppercase">Coding</p>
+            	    </div>
+            	</div>
+
+
+
+            	<div class="col-sm-9 design-page-item pad-project">
+
+	            		<img class="responsive-image design-image" src="images/portfolio1.jpg">
+	            		<img class="responsive-image design-image" src="images/portfolio1.jpg">
+	            		<img class="responsive-image design-image" src="images/portfolio1.jpg">
+            	</div> <!--col-9-->
+        	</div> <!--row-->
+   		 </div> <!--container-->
+	</section>
+
+
+
+<?php get_footer(); ?>
